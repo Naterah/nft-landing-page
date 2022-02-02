@@ -9,9 +9,9 @@
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #0c0c0c;
-  --font-color: #ffffff;
+  --font-color: #ff14d8;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #29fff4;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -32,22 +32,21 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
 
+
 /* HEADER */
 
-header {
-  box-shadow: var(--header-shadow);
-}
-
-header .container {
-  flex-direction: row;
-  justify-content: space-between;
+.header {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding:1rem 7%;
+  border-bottom: var(--header-shadow);
+  top:0; left: 0; right: 0;
 }
 
 .menu {
